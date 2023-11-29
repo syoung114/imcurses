@@ -1,0 +1,20 @@
+# .gitignore for Rust projects
+
+# Ignore compiled files
+/target/
+
+# Ignore artifacts and executables
+Cargo.lock
+**/*.rs.bk
+
+# Ignore hidden directories
+**/.idea/
+**/.vscode/
+
+# Ignore user-specific files
+*.iml
+*.rs~
+
+# Ignore generated documentation
+/target/doc/
+
